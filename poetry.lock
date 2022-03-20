@@ -1,0 +1,29 @@
+[[package]]
+name = "ipy"
+version = "1.01"
+description = "Class and tools for handling of IPv4 and IPv6 addresses and networks"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pyfiglet"
+version = "0.8.post1"
+description = "Pure-python FIGlet implementation"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "51be5bbd47e76fbb6b176cfbc039da6ce60b7bd791211cebd51855b9cdd5907b"
+
+[metadata.files]
+ipy = [
+    {file = "IPy-1.01.tar.gz", hash = "sha256:edeca741dea2d54aca568fa23740288c3fe86c0f3ea700344571e9ef14a7cc1a"},
+]
+pyfiglet = [
+    {file = "pyfiglet-0.8.post1-py2.py3-none-any.whl", hash = "sha256:d555bcea17fbeaf70eaefa48bb119352487e629c9b56f30f383e2c62dd67a01c"},
+    {file = "pyfiglet-0.8.post1.tar.gz", hash = "sha256:c6c2321755d09267b438ec7b936825a4910fec696292139e664ca8670e103639"},
+]
